@@ -23,7 +23,44 @@ class Game:
             {
                 "question": "What command removes a file?",
                 "answer": "rm"
+            },
+            {
+                "question": "What command displays a list of running processes?",
+                "answer": "ps"
+            },
+            {
+                "question": "What command displays the memory usage of a process?",
+                "answer": "top"
+            },
+            {
+                "question": "What command displays the disk usage of a directory?",
+                "answer": "du"
+            },
+            {
+                "question": "What command displays the network usage of a process?",
+                "answer": "netstat"
+            },
+            {
+                "question": "What command creates a symbolic link?",
+                "answer": "ln"
+            },
+            {
+                "question": "What command displays the contents of a file?",
+                "answer": "cat"
+            },
+            {
+               "question": "What command copies a file?",
+               "answer": "cp"
+            },
+            {
+               "question": "What command moves a file?",
+               "answer": "mv"
+            },
+            {
+               "question": "What command removes a directory?",
+               "answer": "rmdir"
             }
+
         ]
 
     def ask_question(self):
