@@ -78,8 +78,8 @@ class Game:
         while True:
             self.ask_question()
             print(f"Your current score is: {self.score}")
-            play_again = input("Do you want to play again? (yes/no) ")
-            if play_again.lower() != "yes":
+            play_again = input("Do you want to play again? (y/n) ")
+            if play_again.lower() != "y":
                 break
 
 if __name__ == "__main__":
